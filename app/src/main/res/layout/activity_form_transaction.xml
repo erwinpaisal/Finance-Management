@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".FormTransactionActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/finance_type"
+        android:textSize="15sp"/>
+
+    <RadioGroup
+        android:id="@+id/radio_group_transaksi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/income"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/expense"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/category_type"
+        android:textSize="15sp"/>
+
+    <Spinner
+        android:id="@+id/form_transaksi_spinner"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#F2F2F2"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nominal_amount"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/form_transaksi_nominal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:inputType="number"
+        android:hint="@string/_0"
+        android:autofillHints="0" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/transaction_description"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/form_transaksi_keterangan"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:autofillHints="@string/buy"
+        android:inputType="text"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/date"
+        android:textSize="15sp"/>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:weightSum="3"
+       android:orientation="horizontal">
+
+       <EditText
+           android:id="@+id/form_transaksi_tanggal"
+           android:layout_width="0dp"
+           android:layout_height="50dp"
+           android:layout_weight="2"
+           android:hint="@string/_2020_10_11"
+           android:autofillHints="@string/_2020_10_11"
+           android:inputType="date" />
+
+       <Button
+           android:id="@+id/form_transaksi_pilih_tanggal"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:textSize="12sp"
+           android:textAllCaps="false"
+           android:textColor="@color/colorWhite"
+           android:textStyle="bold"
+           android:background="@color/colorPrimaryDark"
+           android:text="@string/select_date"/>
+
+   </LinearLayout>
+
+    <Button
+        android:id="@+id/form_transaksi_simpan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_rectangle_green"
+        android:layout_gravity="bottom"/>
+
+</LinearLayout>

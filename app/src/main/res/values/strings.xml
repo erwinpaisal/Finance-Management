@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Finance Management</string>
+    <string name="total">Total Pendapatan</string>
+    <string name="category_name">Nama Kategori</string>
+    <string name="pembayaran_listrik">Pembayaran Listrik</string>
+    <string name="income">Pendapatan</string>
+    <string name="expense">Pengeluaran</string>
+    <string name="perbarui">Memperbarui</string>
+    <string name="finance_type">Jenis Kuangan</string>
+    <string name="_0">Rp. 0</string>
+    <string name="save">Simpan</string>
+    <string name="category_type">Jenis Kategori</string>
+    <string name="app_detail">Solusi Pencatatan Keuangan Anda</string>
+    <string name="show_income_by_ncategory">Tampilkan Pendapatan </string>
+    <string name="show_expense_by_ncategory">Tampilkan Pengeluaran </string>
+    <string name="add_category">Tambah Kategori</string>
+    <string name="todo">TODO</string>
+    <string name="et_input_category">Masukkan Nama Kategori Anda</string>
+    <string name="nominal_amount">Jumlah Nominal</string>
+    <string name="transaction_description">Deskripsi transaksi</string>
+    <string name="buy">Beli</string>
+    <string name="date">Tanggal</string>
+    <string name="_2020_10_11">2020–10–11</string>
+    <string name="select_date">Pilih Tanggal</string>
+    <string name="pembelian_kursi">Pembelian Kursi</string>
+    <string name="lewati_perkenalan">Lewati Perkenalan</string>
+    <string name="lanjutkan">Lanjutkan</string>
+    <string name="kelola_pengeluaran_anda">Kelola Pengeluaran Anda</string>
+    <string name="kelola_pendapatan_anda">Kelola Pendapatan Anda</string>
+</resources>

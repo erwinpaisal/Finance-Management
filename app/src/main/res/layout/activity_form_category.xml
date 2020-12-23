@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".FormCategoryActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/category_name"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/categories_edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/pembayaran_listrik"
+        android:autofillHints="@string/et_input_category"
+        android:inputType="text"
+        tools:ignore="TextFields" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/category_type"
+        android:textSize="15sp"/>
+
+    <RadioGroup
+        android:id="@+id/radio_group_categories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/income"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/expense"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/categories_btn_simpan"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@drawable/shape_rectangle_green"/>
+
+</LinearLayout>

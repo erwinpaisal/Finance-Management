@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@color/colorPrimary"
+       tools:ignore="UselessParent">
+
+       <ImageView
+           android:id="@+id/income_iv_warna"
+           android:layout_width="20dp"
+           android:layout_height="100dp"
+           android:src="@color/colorPrimaryDark"
+           android:contentDescription="@string/todo" />
+
+       <TextView
+           android:id="@+id/income_nama_kategori"
+           android:layout_marginStart="20dp"
+           android:layout_marginTop="10dp"
+           android:textSize="20sp"
+           android:layout_toEndOf="@id/income_iv_warna"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/category_name"/>
+
+       <TextView
+           android:layout_below="@id/income_nama_kategori"
+           android:id="@+id/income_nominal_ket"
+           android:layout_marginStart="20dp"
+           android:textSize="40sp"
+           android:textColor="@android:color/white"
+           android:layout_toEndOf="@id/income_iv_warna"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/_0"/>
+
+   </RelativeLayout>
+
+</RelativeLayout>
