@@ -14,3 +14,7 @@ Fitur:
 - CRUD Expenses
 - Show Expenses per Category
 - Show Total Earning
+
+TERIMA KASIH!! Untuk Inspirasi lain silahkan klik : 
+
+https://biolinky.co/erwinpaisal
